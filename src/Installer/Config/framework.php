@@ -9,7 +9,7 @@ return [
      * Mandatory attribute
      * Format: 'vendor-type'
      */
-    'type' => 'farhanwazir-package',
+    'type' => 'restvel-framework',
 
 
     /* Installation directory
@@ -19,13 +19,11 @@ return [
      * Default: 'vendor'
      * Type: String Path
      * Mandatory attribute
-     *
      * i.e 'directory1/subdirectory/' hierarchy looks like directory1/subdirectory/vendor/package
-     *
      * Instruction: Path should end with trail slash /. Above example only for understanding,
      * other attributes applies.
      */
-    'location' => 'directory/sub-directory/another-sub-directory',
+    'location' => 'system/Libs/',
 
 
     /* Allowed package(s)
@@ -39,7 +37,7 @@ return [
      * Type: String, Array
      * Optional attribute
      */
-    'only' => 'farhanwazir/cpcinstaller', /* 'farhanwazir/*' it means any package from vendor farhanwazir will be accepted if package type matched.*/
+    'only' => 'restvel/framework',
 
 
     /* Naming convention
@@ -58,7 +56,7 @@ return [
      * Instruction: Empty quotes '' place package files on root of location attribute. Vendor attribute
      * action applies.
      */
-    'rename' => 'anyname',
+    'rename' => 'restvel',
 
 
     /* Vendor reference
